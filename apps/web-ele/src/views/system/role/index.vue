@@ -254,17 +254,17 @@ onMounted(() => {
                 link
                 size="small"
                 @click="handleEdit(row)"
-                >
-修改
-</ElButton>
+              >
+                修改
+              </ElButton>
               <ElButton
                 type="danger"
                 link
                 size="small"
                 @click="handleDelete(row)"
-                >
-删除
-</ElButton>
+              >
+                删除
+              </ElButton>
             </ElSpace>
           </template>
         </ElTableColumn>
